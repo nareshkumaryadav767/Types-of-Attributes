@@ -1,0 +1,16 @@
+class Person:
+  city = "Kadapa"
+  def __init__(self,name,age):
+    self.name=name
+    self.age=age
+  def GetValue(self):
+    print("The name of the person is ",self.name," and the age is ",self.age," and he is from ",Person.city,".",sep="")
+    
+name =input()
+age =int(input())
+
+P1 =Person("naresh",20)
+P1.GetValue()
+
+P2 =Person("NY",23)
+P2.GetValue()
